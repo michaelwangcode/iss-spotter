@@ -107,7 +107,7 @@ const printPassTimes = function(flyoverTimes) {
     const datetime = new Date(0);
     datetime.setUTCSeconds(flyoverTime.risetime);
 
-    // Get the fligth duration
+    // Get the flight duration
     const flightDuration = flyoverTime.duration;
 
     // Print the time to the console
