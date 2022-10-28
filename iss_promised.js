@@ -5,7 +5,7 @@ const request = require('request-promise-native');
 // This function returns your IP address
 const fetchMyIP = function() {
   return request('https://api.ipify.org?format=json');
-}
+};
 
 
 // This function returns your latitude and longitude coordinates
